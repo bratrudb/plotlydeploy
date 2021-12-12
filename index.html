@@ -13,9 +13,9 @@
 
   <div class="container">
     <div class="row">
-      <div class="col-md-12 jumbotron text-center">
-        <h1>Belly Button Biodiversity Dashboard</h1>
-        <p>Use the interactive charts below to explore the dataset</p>
+      <div class="col-md-12 jumbotron text-center" style="background:url(../static/images/bacteria_header.jfif) no-repeat center center; background-size: 100% 100%">
+        <h1 style="color:aliceblue">Belly Button Biodiversity Dashboard</h1>
+        <p style="color:aliceblue">Use the interactive charts below to explore the dataset</p>
       </div>
     </div>
     <div class="row">
@@ -32,10 +32,15 @@
           <div id="sample-metadata" class="panel-body"></div>
         </div>
       </div>
-      <div class="col-md-5">
+      <div class="col-md-10">
+        <p>Improbable Beef has hypothesized that bacteria found in human belly buttons may provide the missing ingredient in making fake meat taste like the real thing. The following charts provide information on a study conducted to find the types of bacteria found in test subject's navels. Filter by Test Subject ID to find out who does and does not wash their navels!</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
         <div id="bar"></div>
       </div>
-      <div class="col-md-5">
+      <div class="col-md-6">
         <div id="gauge"></div>
       </div>
     </div>
@@ -48,7 +53,7 @@
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-  <script src="plots.js"></script>
+  <script src="static/js/charts.js"></script>
 
 </body>
 
